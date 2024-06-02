@@ -1,0 +1,105 @@
+.App {
+  text-align: center;
+}
+.header{
+  color:black;
+  text-align: center;
+  display: flex;
+  padding: 70px;
+}
+
+.add-button-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.add-button {
+  position: relative;
+}
+
+.add-btn {
+  background: #9d1919;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+
+.dropdown-menu {
+  position: absolute;
+  top: 40px;
+  right: 0;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.dropdown-menu button {
+  display: block;
+  padding: 10px 20px;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+}
+
+.dropdown-menu button:hover {
+  background: #f5f5f5;
+}
+
+.empty-state {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.empty-state img {
+  width: 150px;
+  height: 150px;
+}
+
+.empty-state p {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.empty-state span {
+  display: block;
+  margin-top: 10px;
+  color: #666;
+}
+
+.module-list {
+  padding: 30px;
+}
+
+.module-item {
+  background: #f9f9f9;
+  padding: 20px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: 1px solid #0f0a0a;
+}
+.content-list {
+  padding: 50px;
+}
+
+.module-item, .link-item {
+  background: #b1b1b1;
+  padding: 20px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: 1px solid #5d5d5d;
+}
+
+.link-item a {
+  text-decoration: none;
+  color: #105c45;
+}
+
+
